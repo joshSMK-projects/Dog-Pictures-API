@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(lightblue, lightgreen);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head {
+    margin-top: 40px;
+    font-size: xx-large
+}
+
+.container {
+    background: aliceblue;
+    border-radius: 10px;
+    width: 600px;
+    text-align: center;
+    margin: 5px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.dogContainer {
+    display: inline-block;
+    margin: 15px;
+    width: 300px;
+    height: 300px;
+}
+
+.dogImage {
+    border: 10px solid yellowgreen;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+#dogText {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#btn {
+    background-color: green;
+    color: aliceblue;
+    padding: 10px 30px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin: 30px;
+}
+
+#btn:disabled {
+    background-color: gray;
+    cursor: not-allowed;
+}
